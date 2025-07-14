@@ -10,7 +10,7 @@ def get_script_path():
     return os.path.dirname(os.path.abspath(sys.argv[0]))
 
 
-def delete_files_on_time(directory_path, prefix_archive, intervalo_segundos):
+def delete_files_on_time(directory_path, prefix_archive, interval_in_seconds):
     """
     Deletes files in a specific directory that begin with a given prefix,
 repeatedly at each time interval.
